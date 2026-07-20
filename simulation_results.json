@@ -1,0 +1,42 @@
+{
+  "seed": 20260720,
+  "s1_design_effect": {
+    "n_sites": 8,
+    "n_total": 245,
+    "site_sizes": [
+      62,
+      48,
+      40,
+      31,
+      25,
+      18,
+      12,
+      9
+    ],
+    "mean_site_size": 30.62,
+    "cv_site_size": 0.6021,
+    "icc": 0.05,
+    "de_equal_assumption": 2.4813,
+    "de_unequal_actual": 3.0363,
+    "variance_understated_pct": 22.37,
+    "n_needed_equal": 497,
+    "n_needed_unequal": 608
+  },
+  "s2_type_i_error": {
+    "nrep_fitted": 400,
+    "tau_site_treatment_effect": 0.3,
+    "nominal_alpha": 0.05,
+    "type1_random_intercept_z": 0.185,
+    "type1_random_slope_z": 0.0625,
+    "type1_random_slope_t_kminus2": 0.02
+  },
+  "s3_informative_cluster_size": {
+    "nrep_fitted": 250,
+    "true_participant_weighted_effect": 0.3,
+    "corr_site_size_with_effect": 0.85,
+    "mean_mixed_model_estimate": 0.3768,
+    "mean_site_average_estimate": 0.3102,
+    "mean_absolute_divergence": 0.0761,
+    "pct_reps_diverging_over_0_05": 63.6
+  }
+}
